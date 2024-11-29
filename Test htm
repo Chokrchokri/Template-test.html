@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Simple</title>
+    <style>
+        /* Style général */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Sections */
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur ma page de test</h1>
+        <p>Cette template simple est conçue pour tester un hébergeur facilement.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>À propos de cette template</h2>
+            <p>Cette page est juste une base de test, avec une mise en page simple pour vérifier les performances de ton hébergement.</p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>Si tu veux me contacter, envoie-moi un e-mail à <a href="mailto:exemple@mail.com">exemple@mail.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Test Hébergeur</p>
+    </footer>
+</body>
+</html>
